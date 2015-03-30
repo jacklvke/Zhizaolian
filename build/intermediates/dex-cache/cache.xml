@@ -23,6 +23,13 @@
         <dex dex="/Users/lk/AndroidstudioProjects/Zhizaolian/app/build/intermediates/pre-dexed/debug/classes-5b109de8c0491e2889fca69535ac9488b54a1779.jar" />
     </item>
     <item
+        jar="/Users/lk/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.6/a845a88238be0b5be9d238652c1bc0605ef91f52/android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/lk/AndroidstudioProjects/Zhizaolian/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-22da5b8bf5d1bb668edf3d4e51a8c64c4a6540b7.jar" />
+    </item>
+    <item
         jar="/Users/lk/AndroidstudioProjects/Zhizaolian/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"

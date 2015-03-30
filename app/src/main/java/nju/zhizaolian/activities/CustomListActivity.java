@@ -1,5 +1,6 @@
 package nju.zhizaolian.activities;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -15,6 +16,7 @@ import nju.zhizaolian.models.Custom;
 public class CustomListActivity extends ActionBarActivity {
     private ArrayList<Custom> customList;
     private ListView customListView;
+    private RefreshTask refreshTask;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +46,7 @@ public class CustomListActivity extends ActionBarActivity {
         customAdapter.add(a2);
         Custom a3=a;
         customAdapter.add(a3);
+        refreshTask=new RefreshTask();
 
     }
 
@@ -69,4 +72,14 @@ public class CustomListActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    public class RefreshTask extends AsyncTask<Void,Void,Boolean>{
+
+
+
+        @Override
+        protected Boolean doInBackground(Void... params) {
+            return false;
+        }
+    }
+
 }

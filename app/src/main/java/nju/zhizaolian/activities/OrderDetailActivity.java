@@ -92,6 +92,7 @@ public class OrderDetailActivity extends ActionBarActivity implements ActionBar.
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
@@ -131,7 +132,7 @@ public class OrderDetailActivity extends ActionBarActivity implements ActionBar.
             // Return a PlaceholderFragment (defined as a static inner class below).
             switch (position){
                 case 0:
-                    return new OrderBaseInfoFragment();
+                    return  OrderBaseInfoFragment.newInstance("","");
                 case 1:
                     return new OrderMaterialDetailFragment();
                 case 2:
